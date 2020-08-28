@@ -1,0 +1,49 @@
+
+.App {
+    max-width: 400px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+nav {
+    padding: 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.book-list {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.book-list ul {
+    padding: 0;
+    list-style: none;
+}
+
+.book-list li {
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    box-shadow: 3px 4px 5px 0px black;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #505050;
+    cursor: pointer;
+}
